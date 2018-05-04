@@ -1,0 +1,33 @@
+﻿{
+  "driver": "Selenium",
+  "driverType": "Web",
+  "driverName": "InternetExplorerDriver",
+  "driverUrl": "http://tm72-mpl0/tmnet",
+  "stepsList": [
+    {
+      "stepName": "Step 1",
+      "objectType": "element",
+      "objectName": "btnStart",
+      "actionName": "Click",
+    },	
+	{
+      "stepName": "Step 2",
+      "objectType": "element",
+      "objectName": "q",
+	  "actionName": "SendKeys",
+      "actionParam": "Test"
+    },
+	{
+      "stepName": "Step 3",
+      "objectType": "element",
+      "objectName": "Welcome",
+	  "actionName": "Click"
+    },
+	{
+      "stepName": "Step 4",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "2"
+    }
+  ]
+}

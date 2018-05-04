@@ -1,0 +1,1067 @@
+﻿{
+  "driver": "Selenium",
+  "driverType": "Web",
+  "driverName": "InternetExplorerDriver",
+  "driverUrl": "http://pruebasserver/tmnet/",
+  "iterationCount": "1",
+  "stepsList": [
+    {
+      "stepName": "Step 1",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "HyperLink1",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space"
+    },
+    {
+      "stepName": "Step 2",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "2"
+    },
+    {
+      "stepName": "Step 3",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_SignOnPage_TellerMode",
+      "actionName": "SendKeys",
+      "actionParam": "counter no"
+
+    },
+    {
+      "stepName": "Step 4",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "2"
+    },
+    {
+      "stepName": "Step 5",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_SignOnPage_TellerMode",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "f12"
+    },
+    {
+      "stepName": "Step 6",
+      "stepStatus": "0",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "5"
+    },
+    {
+      "stepName": "Step 7",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Printer",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "arrowdown"
+    },
+    {
+      "stepName": "Step 8",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Print Options",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space"
+    },
+    {
+      "stepName": "Step 9",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_Options_chkEnableDisablePrinter",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space"
+    },
+    {
+      "stepName": "Step 10",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "2"
+    },
+    {
+      "stepName": "Step 11",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "switchalert",
+      "actionParam": "Accept"
+    },
+    {
+      "stepName": "Step 12",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_Options_chkEnableDisablePrinter",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "f12"
+    },
+    {
+      "stepName": "Step 13",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Debit Transactions",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space"
+    },
+    {
+      "stepName": "Step 14",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "2"
+    },
+    {
+      "stepName": "Step 15",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitTransaction_FromCtrl_From_1_FromType",
+      "actionName": "SendKeys",
+      "actionParam": "1"
+    },
+    {
+      "stepName": "Step 16",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitTransaction_FromCtrl_From_1_AbaNbr",
+      "actionName": "SendKeys",
+      "actionParam": "021502011"
+    },
+    {
+      "stepName": "Step 17",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitTransaction_FromCtrl_From_1_AcctNbr",
+      "actionName": "SendKeys",
+      "actionParam": "014101386"
+    },
+    {
+      "stepName": "Step 18",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitTransaction_FromCtrl_From_1_ChkNbr",
+      "actionName": "SendKeys",
+      "actionParam": "1"
+    },
+    {
+      "stepName": "Step 19",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitTransaction_FromCtrl_From_1_TxnAmt",
+      "actionName": "SendKeys",
+      "actionParam": "100.00"
+    },
+    {
+      "stepName": "Step 20",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitTransaction_FromCtrl_From_2_FromType",
+      "actionName": "SendKeys",
+      "actionParam": "2"
+    },
+    {
+      "stepName": "Step 21",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitTransaction_FromCtrl_From_2_AcctNbr",
+      "actionName": "SendKeys",
+      "actionParam": "450108160"
+    },
+    {
+      "stepName": "Step 22",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitTransaction_FromCtrl_From_2_TxnAmt",
+      "actionName": "SendKeys",
+      "actionParam": "150.00"
+    },
+    {
+      "stepName": "Step 23",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitTransaction_FromCtrl_From_3_FromType",
+      "actionName": "SendKeys",
+      "actionParam": "3"
+    },
+    {
+      "stepName": "Step 24",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitTransaction_FromCtrl_From_3_AbaNbr",
+      "actionName": "SendKeys",
+      "actionParam": "123456789"
+    },
+    {
+      "stepName": "Step 25",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitTransaction_FromCtrl_From_3_TxnAmt",
+      "actionName": "SendKeys",
+      "actionParam": "150.00"
+    },
+    {
+      "stepName": "Step 26",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitTransaction_FromCtrl_From_4_FromType",
+      "actionName": "SendKeys",
+      "actionParam": "6"
+    },
+    {
+      "stepName": "Step 27",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitTransaction_FromCtrl_From_4_AcctNbr",
+      "actionName": "SendKeys",
+      "actionParam": "014308657"
+    },
+    {
+      "stepName": "Step 28",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitTransaction_FromCtrl_From_4_TxnAmt",
+      "actionName": "SendKeys",
+      "actionParam": "150.00"
+    },
+    {
+      "stepName": "Step 29",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitTransaction_FromCtrl_From_5_FromType",
+      "actionName": "SendKeys",
+      "actionParam": "7"
+    },
+    {
+      "stepName": "Step 30",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitTransaction_FromCtrl_From_5_AcctNbr",
+      "actionName": "SendKeys",
+      "actionParam": "1234567890"
+    },
+    {
+      "stepName": "Step 31",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitTransaction_FromCtrl_From_5_TxnAmt",
+      "actionName": "SendKeys",
+      "actionParam": "150.00"
+    },
+    {
+      "stepName": "Step 32",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitTransaction_FromCtrl_From_6_FromType",
+      "actionName": "SendKeys",
+      "actionParam": "8"
+    },
+    {
+      "stepName": "Step 33",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitTransaction_FromCtrl_From_6_TxnAmt",
+      "actionName": "SendKeys",
+      "actionParam": "150.00"
+    },
+    {
+      "stepName": "Step 34",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitTransaction_FromCtrl_From_1_CustomerReference",
+      "actionName": "SendKeys",
+      "actionParam": "123456"
+    },
+    {
+      "stepName": "Step 35",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitTransaction_FromCtrl_From_1_CustomerReference",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "f12"
+    },
+    {
+      "stepName": "Step 36",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "3"
+    },
+    {
+      "stepName": "Step 37",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "popUpBinViewer_btnClosePopup",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space",
+      "stepComment": "Cerrar msg de BIN, Finaliza Debit Transaction"
+    },
+    {
+      "stepName": "Step 38",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Deposit",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space"
+    },
+    {
+      "stepName": "Step 39",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_Deposits_ToCtrl_To_1_DepositType",
+      "actionName": "SendKeys",
+      "actionParam": "1"
+    },
+    {
+      "stepName": "Step 40",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_Deposits_FromCtrl_From_CashReceived_TxnAmt",
+      "actionName": "SendKeys",
+      "actionParam": "3000.00"
+    },
+    {
+      "stepName": "Step 41",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_Deposits_ToCtrl_To_1_AcctNbr",
+      "actionName": "SendKeys",
+      "actionParam": "014101386"
+    },
+    {
+      "stepName": "Step 42",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_Deposits_ToCtrl_To_1_TxnAmount",
+      "actionName": "SendKeys",
+      "actionParam": "1000.00"
+    },
+    {
+      "stepName": "Step 43",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_Deposits_ToCtrl_To_1_TxnAmt",
+      "actionName": "SendKeys",
+      "actionParam": "1000.00"
+    },
+    {
+      "stepName": "Step 44",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_Deposits_ToCtrl_To_1_SectionTypeDDL",
+      "actionName": "SendKeys",
+      "actionParam": "1"
+    },
+    {
+      "stepName": "Step 45",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_Deposits_ToCtrl_To_1_SectionTypeDDL",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "f12"
+    },
+    {
+      "stepName": "Step 46",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "3"
+    },
+    {
+      "stepName": "Step 47",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "popUpBinViewer_btnClosePopup",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space",
+      "stepComment": "Cerrar msg de BIN, Finaliza Deposit"
+    },
+
+    {
+      "stepName": "Step 48",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "3",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space"
+    },
+    {
+      "stepName": "Step 49",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_BankExternalPayments_FromCtrl_From_CashReceived_TxnAmt",
+      "actionName": "SendKeys",
+      "actionParam": "6000.00"
+    },
+    {
+      "stepName": "Step 50",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_BankExternalPayments_ToCtrl_To_1_BankExtType",
+      "actionName": "SendKeys",
+      "actionParam": "A.A.A"
+    },
+    {
+      "stepName": "Step 51",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_BankExternalPayments_ToCtrl_To_1_AcctNbr",
+      "actionName": "SendKeys",
+      "actionParam": "000226128031"
+    },
+    {
+      "stepName": "Step 52",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_BankExternalPayments_ToCtrl_To_1_TxnAmt",
+      "actionName": "SendKeys",
+      "actionParam": "1000.00"
+    },
+    {
+      "stepName": "Step 53",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_BankExternalPayments_ToCtrl_To_2_BankExtType",
+      "actionName": "SendKeys",
+      "actionParam": "AEE"
+    },
+    {
+      "stepName": "Step 54",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_BankExternalPayments_ToCtrl_To_2_AcctNbr",
+      "actionName": "SendKeys",
+      "actionParam": "00032619057657"
+    },
+    {
+      "stepName": "Step 55",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_BankExternalPayments_ToCtrl_To_2_TxnAmt",
+      "actionName": "SendKeys",
+      "actionParam": "1000.00"
+    },
+    {
+      "stepName": "Step 56",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_BankExternalPayments_ToCtrl_To_3_BankExtType",
+      "actionName": "SendKeys",
+      "actionParam": "Liberty"
+    },
+    {
+      "stepName": "Step 57",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_BankExternalPayments_ToCtrl_To_3_AcctNbr",
+      "actionName": "SendKeys",
+      "actionParam": "8228630040181193"
+    },
+    {
+      "stepName": "Step 58",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_BankExternalPayments_ToCtrl_To_3_TxnAmt",
+      "actionName": "SendKeys",
+      "actionParam": "1000.00"
+    },
+    {
+      "stepName": "Step 59",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_BankExternalPayments_ToCtrl_To_4_BankExtType",
+      "actionName": "SendKeys",
+      "actionParam": "Spirit Comm"
+    },
+    {
+      "stepName": "Step 60",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_BankExternalPayments_ToCtrl_To_4_AcctNbr",
+      "actionName": "SendKeys",
+      "actionParam": "930130865"
+    },
+    {
+      "stepName": "Step 61",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_BankExternalPayments_ToCtrl_To_4_TxnAmt",
+      "actionName": "SendKeys",
+      "actionParam": "1000.00"
+    },
+    {
+      "stepName": "Step 62",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_BankExternalPayments_ToCtrl_To_5_BankExtType",
+      "actionName": "SendKeys",
+      "actionParam": "MMM"
+    },
+    {
+      "stepName": "Step 63",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_BankExternalPayments_ToCtrl_To_5_AcctNbr",
+      "actionName": "SendKeys",
+      "actionParam": "010489213025000"
+    },
+    {
+      "stepName": "Step 64",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_BankExternalPayments_ToCtrl_To_5_BankExtChkDigit",
+      "actionName": "SendKeys",
+      "actionParam": "9"
+    },
+    {
+      "stepName": "Step 65",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_BankExternalPayments_ToCtrl_To_5_TxnAmt",
+      "actionName": "SendKeys",
+      "actionParam": "1000.00"
+    },
+    {
+      "stepName": "Step 66",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_BankExternalPayments_ToCtrl_To_6_BankExtType",
+      "actionName": "SendKeys",
+      "actionParam": "Toyota"
+    },
+    {
+      "stepName": "Step 67",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_BankExternalPayments_ToCtrl_To_6_AcctNbr",
+      "actionName": "SendKeys",
+      "actionParam": "0406157487"
+    },
+    {
+      "stepName": "Step 68",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_BankExternalPayments_ToCtrl_To_6_BankExtChkDigit",
+      "actionName": "SendKeys",
+      "actionParam": "9"
+    },
+    {
+      "stepName": "Step 69",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_BankExternalPayments_ToCtrl_To_6_TxnAmt",
+      "actionName": "SendKeys",
+      "actionParam": "1000.00"
+    },
+    {
+      "stepName": "Step 70",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_BankExternalPayments_ToCtrl_To_6_TxnAmt",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "f12"
+    },
+    {
+      "stepName": "Step 71",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "3"
+    },
+    {
+      "stepName": "Step 72",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "popUpBinViewer_btnClosePopup",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space",
+      "stepComment": "Cerrar msg de BIN, Finaliza Deposit"
+    },
+    {
+      "stepName": "Step 73",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Debit / Credit Memo",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space"
+    },
+    {
+      "stepName": "Step 74",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitCreditMemo_ToCtrl_To_1_OptionGL",
+      "actionName": "SendKeys",
+      "actionParam": "1"
+    },
+    {
+      "stepName": "Step 75",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitCreditMemo_ToCtrl_To_1_AcctNbr",
+      "actionName": "SendKeys",
+      "actionParam": "014101386"
+    },
+    {
+      "stepName": "Step 76",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitCreditMemo_ToCtrl_To_1_SectionTypeDDL",
+      "actionName": "SendKeys",
+      "actionParam": "1"
+    },
+    {
+      "stepName": "Step 77",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitCreditMemo_ToCtrl_To_1_TxnAmt",
+      "actionName": "SendKeys",
+      "actionParam": "100.00"
+    },
+    {
+      "stepName": "Step 78",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitCreditMemo_ToCtrl_To_1_ReasonCode",
+      "actionName": "SendKeys",
+      "actionParam": "123"
+    },
+    {
+      "stepName": "Step 79",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitCreditMemo_ToCtrl_To_1_ClientName",
+      "actionName": "SendKeys",
+      "actionParam": "David"
+    },
+    {
+      "stepName": "Step 80",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitCreditMemo_ToCtrl_To_1_ApvedBy",
+      "actionName": "SendKeys",
+      "actionParam": "VI002"
+    },
+    {
+      "stepName": "Step 81",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitCreditMemo_ToCtrl_To_1_ApvedBy",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "f12"
+    },
+    {
+      "stepName": "Step 82",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "switchchildwindows",
+      "actionParam": ""
+    },
+    {
+      "stepName": "Step 83",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "txtAuthUserID",
+      "actionName": "SendKeys",
+      "actionParam": "U999999"
+    },
+    {
+      "stepName": "Step 84",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "txtAccessCode",
+      "actionName": "SendKeys",
+      "actionParam": "Passw0rd"
+    },
+    {
+      "stepName": "Step 85",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "txtAppMsgLocal",
+      "actionName": "SendKeys",
+      "actionParam": "Pass"
+    },
+    {
+      "stepName": "Step 86",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "imgOk",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "f12"
+    },
+    {
+      "stepName": "Step 87",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "switchparentwindow",
+      "actionParam": ""
+    },
+    {
+      "stepName": "Step 88",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "2"
+    },
+    {
+      "stepName": "Step 89",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "popUpBinViewer_btnClosePopup",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space",
+      "stepComment": "Cerrar msg de BIN, Finaliza Debit Transaction"
+    },
+    {
+      "stepName": "Step 90",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Debit / Credit Memo",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space"
+    },
+    {
+      "stepName": "Step 91",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitCreditMemo_ToCtrl_To_1_OptionGL",
+      "actionName": "SendKeys",
+      "actionParam": "2"
+    },
+    {
+      "stepName": "Step 92",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitCreditMemo_ToCtrl_To_1_AcctNbr",
+      "actionName": "SendKeys",
+      "actionParam": "014101386"
+    },
+    {
+      "stepName": "Step 93",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitCreditMemo_ToCtrl_To_1_SectionTypeDDL",
+      "actionName": "SendKeys",
+      "actionParam": "1"
+    },
+    {
+      "stepName": "Step 94",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitCreditMemo_ToCtrl_To_1_TxnAmt",
+      "actionName": "SendKeys",
+      "actionParam": "100.00"
+    },
+    {
+      "stepName": "Step 95",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitCreditMemo_ToCtrl_To_1_ReasonCode",
+      "actionName": "SendKeys",
+      "actionParam": "123"
+    },
+    {
+      "stepName": "Step 96",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitCreditMemo_ToCtrl_To_1_ClientName",
+      "actionName": "SendKeys",
+      "actionParam": "David"
+    },
+    {
+      "stepName": "Step 97",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitCreditMemo_ToCtrl_To_1_ApvedBy",
+      "actionName": "SendKeys",
+      "actionParam": "VI002"
+    },
+    {
+      "stepName": "Step 98",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_DebitCreditMemo_ToCtrl_To_1_ApvedBy",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "f12"
+    },
+    {
+      "stepName": "Step 99",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "switchchildwindows",
+      "actionParam": ""
+    },
+    {
+      "stepName": "Step 100",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "txtAuthUserID",
+      "actionName": "SendKeys",
+      "actionParam": "U999999"
+    },
+    {
+      "stepName": "Step 101",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "txtAccessCode",
+      "actionName": "SendKeys",
+      "actionParam": "Passw0rd"
+    },
+    {
+      "stepName": "Step 102",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "txtAppMsgLocal",
+      "actionName": "SendKeys",
+      "actionParam": "Pass"
+    },
+    {
+      "stepName": "Step 103",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "imgOk",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "f12"
+    },
+    {
+      "stepName": "Step 104",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "switchparentwindow",
+      "actionParam": ""
+    },
+    {
+      "stepName": "Step 105",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "2"
+    },
+    {
+      "stepName": "Step 106",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "popUpBinViewer_btnClosePopup",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space",
+      "stepComment": "Cerrar msg de BIN, Finaliza Debit Transaction"
+    },
+    {
+      "stepName": "Step 107",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Electronic Forms",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "arrowdown"
+    },
+    {
+      "stepName": "Step 108",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Form 112",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space"
+    },
+
+    {
+      "stepName": "Step 109",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_CustomerSearch_DDLCSCriteria",
+      "actionName": "SendKeys",
+      "actionParam": "Name"
+    },
+    {
+      "stepName": "Step 110",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_CustomerSearch_CSCriteria3",
+      "actionName": "SendKeys",
+      "actionParam": "sa"
+    },
+    {
+      "stepName": "Step 111",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_CustomerSearch_CSCriteria4",
+      "actionName": "SendKeys",
+      "actionParam": "ele"
+    },
+    {
+      "stepName": "Step 112",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_CustomerSearch_CSCriteria4",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "f12"
+    },
+    {
+      "stepName": "Step 113",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "10"
+    },
+    {
+      "stepName": "Step 114",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_CustomerSearch_CSCriteria4",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "f12"
+    },
+    {
+      "stepName": "Step 115",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "2"
+    },
+    {
+      "stepName": "Step 116",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_LargeCash_ToCtrl_To_1_CondGender1",
+      "actionName": "SendKeys",
+      "actionParam": "Female"
+    },
+    {
+      "stepName": "Step 117",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_LargeCash_ToCtrl_To_1_CondIssuedByCountry1",
+      "actionName": "SendKeys",
+      "actionParam": "Ca"
+    },
+    {
+      "stepName": "Step 118",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_LargeCash_ToCtrl_To_1_btnAffectedAccounts",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space"
+    },
+    {
+      "stepName": "Step 119",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_LargeCash_ToCtrl_To_1_btnTotals",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space"
+    },
+    {
+      "stepName": "Step 120",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_LargeCash_ToCtrl_To_1_CashInDepositWithdr",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "f12"
+    },
+    {
+      "stepName": "Step 121",
+      "stepStatus": "0",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "2"
+    },
+    {
+      "stepName": "Step 122",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "switchchildwindows",
+      "actionParam": ""
+    },
+    {
+      "stepName": "Step 123",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "txtAuthUserID",
+      "actionName": "SendKeys",
+      "actionParam": "U999999"
+    },
+    {
+      "stepName": "Step 124",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "txtAccessCode",
+      "actionName": "SendKeys",
+      "actionParam": "Passw0rd"
+    },
+    {
+      "stepName": "Step 125",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "txtAppMsgLocal",
+      "actionName": "SendKeys",
+      "actionParam": "Pass"
+    },
+    {
+      "stepName": "Step 126",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "imgOk",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "f12"
+    },
+    {
+      "stepName": "Step 127",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "switchparentwindow",
+      "actionParam": ""
+    },
+    {
+      "stepName": "Step 128",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "2"
+    },
+    {
+      "stepName": "Step 129",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "End Session",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "F4"
+    },
+    {
+      "stepName": "Step 130",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "PAY",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "F12"
+    },
+    {
+      "stepName": "Step 131",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Teller",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "arrowdown"
+    },
+    {
+      "stepName": "Step 132",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Sign Off",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space"
+    },
+    {
+      "stepName": "Step 133",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Sign Off",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "f12"
+    },
+    {
+      "stepName": "Step 134",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "10"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+﻿{
+  "driver": "Selenium",
+  "driverType": "Web",
+  "driverName": "InternetExplorerDriver",
+  "driverUrl": "http://pruebasserver/tmnet/",
+  "iterationCount": "1",
+  "stepsList": [
+    {
+      "stepName": "Step 1",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "HyperLink1",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space"
+    },
+    {
+      "stepName": "Step 2",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "2"
+    },
+    {
+      "stepName": "Step 3",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_SignOnPage_TellerMode",
+      "actionName": "SendKeys",
+      "actionParam": "counter no"
+
+    },
+    {
+      "stepName": "Step 4",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "2"
+    },
+    {
+      "stepName": "Step 5",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_SignOnPage_TellerMode",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "f12"
+    },
+    {
+      "stepName": "Step 6",
+      "stepStatus": "0",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "5"
+    },
+    {
+      "stepName": "Step 7",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Printer",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "arrowdown"
+    },
+    {
+      "stepName": "Step 8",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Print Options",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space"
+    },
+    {
+      "stepName": "Step 9",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_Options_chkEnableDisablePrinter",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space"
+    },
+    {
+      "stepName": "Step 10",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "2"
+    },
+    {
+      "stepName": "Step 11",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "switchalert",
+      "actionParam": "Accept"
+    },
+    {
+      "stepName": "Step 12",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_Options_chkEnableDisablePrinter",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "f12"
+    },
+    {
+      "stepName": "Step 13",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Other",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space"
+    },
+    {
+      "stepName": "Step 14",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Cash Advance",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space"
+    },
+    {
+      "stepName": "Step 15",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_CashAdvance_ToCtrl_To_1_CardType2",
+      "actionName": "SendKeys",
+      "actionParam": "1"
+    },
+
+    {
+      "stepName": "Step 16",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_CashAdvance_ToCtrl_To_1_CreditCardSet",
+      "actionName": "SendKeys",
+      "actionParam": "1"
+    },
+    {
+      "stepName": "Step 17",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "2"
+    },
+    {
+      "stepName": "Step 11",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "switchchildwindows",
+      "actionParam": "Close"
+    },
+    {
+      "stepName": "Step 19",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "5"
+    },
+    {
+      "stepName": "Step 20",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Teller",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "arrowdown"
+    },
+    {
+      "stepName": "Step 21",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Sign Off",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space"
+    },
+    {
+      "stepName": "Step 22",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Sign Off",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "f12"
+    },
+    {
+      "stepName": "Step 23",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "10"
+    }
+  ]
+}

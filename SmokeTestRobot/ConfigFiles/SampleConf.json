@@ -1,0 +1,62 @@
+﻿{
+  "driver": "Selenium",
+  "driverType": "Web",
+  "driverName": "InternetExplorerDriver",
+  "driverUrl": "http://www.google.com",
+  "iterationCount": "1",
+  "stepsList": [
+    {
+      "stepName": "Step 1",
+      "stepStatus": "0",
+      "objectType": "element",
+      "objectName": "q",
+      "actionName": "Clear"      
+    },
+    {
+      "stepName": "Step 2",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "q",
+      "actionName": "SendKeys",
+      "actionParam": "Smoke Test Automation System ",
+      "stepIterationCount": "2"
+    },
+    {
+      "stepName": "Step 3",
+      "stepStatus": "0",
+      "objectType": "element",
+      "objectName": "q",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "F12"
+    },
+    {
+      "stepName": "Step 4",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "q",
+      "actionName": "Submit",
+      "stepIterationCount": "0"
+    },
+    {
+      "stepName": "Step 5",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "3"
+    },
+    {
+      "stepName": "Step 6",
+      "stepStatus": "0",
+      "objectType": "element",
+      "objectName": "logo",
+      "actionName": "Click"
+    },    
+    {
+      "stepName": "Step 7",
+      "stepStatus": "0",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "2"
+    }
+  ]
+}

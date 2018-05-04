@@ -1,0 +1,383 @@
+{
+  "driver": "Selenium",
+  "driverType": "Web",
+  "driverName": "InternetExplorerDriver",
+  "driverUrl": "http://pruebasserver/tmnet/",
+  "iterationCount": "1",
+  "stepsList": [
+    {
+      "stepName": "Step 1",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "HyperLink1",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space"
+    },
+    {
+      "stepName": "Step 2",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "2"
+    },
+    {
+      "stepName": "Step 3",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_SignOnPage_TellerMode",
+      "actionName": "SendKeys",
+      "actionParam": "counter no"
+
+    },
+    {
+      "stepName": "Step 4",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "2"
+    },
+    {
+      "stepName": "Step 5",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_SignOnPage_TellerMode",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "f12"
+    },
+    {
+      "stepName": "Step 6",
+      "stepStatus": "0",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "5"
+    },
+    {
+      "stepName": "Step 7",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Printer",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "arrowdown"
+    },
+    {
+      "stepName": "Step 8",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Print Options",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space"
+    },
+    {
+      "stepName": "Step 9",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_Options_chkEnableDisablePrinter",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space"
+    },
+    {
+      "stepName": "Step 10",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "2"
+    },
+    {
+      "stepName": "Step 11",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "switchalert",
+      "actionParam": "Accept"
+    },
+    {
+      "stepName": "Step 12",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_Options_chkEnableDisablePrinter",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "f12"
+    },
+    {
+      "stepName": "Step 13",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Deposit",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space"
+    },
+    {
+      "stepName": "Step 14",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_Deposits_ToCtrl_To_1_DepositType",
+      "actionName": "SendKeys",
+      "actionParam": "1"
+    },
+    {
+      "stepName": "Step 15",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_Deposits_FromCtrl_From_CashReceived_TxnAmt",
+      "actionName": "SendKeys",
+      "actionParam": "11000.00"
+    },
+    {
+      "stepName": "Step 16",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_Deposits_ToCtrl_To_1_AcctNbr",
+      "actionName": "SendKeys",
+      "actionParam": "014101386"
+    },
+    {
+      "stepName": "Step 17",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_Deposits_ToCtrl_To_1_TxnAmount",
+      "actionName": "SendKeys",
+      "actionParam": "11000.00"
+    },
+    {
+      "stepName": "Step 18",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_Deposits_ToCtrl_To_1_TxnAmt",
+      "actionName": "SendKeys",
+      "actionParam": "11000.00"
+    },
+    {
+      "stepName": "Step 19",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_Deposits_ToCtrl_To_1_SectionTypeDDL",
+      "actionName": "SendKeys",
+      "actionParam": "1"
+    },
+    {
+      "stepName": "Step 28",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_Deposits_ToCtrl_To_1_SectionTypeDDL",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "f12"
+    },
+    {
+      "stepName": "Step 29",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "3"
+    },
+    {
+      "stepName": "Step 30",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "popUpBinViewer_btnClosePopup",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space",
+      "stepComment": "Cerrar msg de BIN, Finaliza Deposit"
+    },
+    {
+      "stepName": "Step 007",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Electronic Forms",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "arrowdown"
+    },
+    {
+      "stepName": "Step 008",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Form 112",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space"
+    },
+
+    {
+      "stepName": "Step 39",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_CustomerSearch_DDLCSCriteria",
+      "actionName": "SendKeys",
+      "actionParam": "Name"
+    },
+    {
+      "stepName": "Step 40",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_CustomerSearch_CSCriteria3",
+      "actionName": "SendKeys",
+      "actionParam": "sa"
+    },
+    {
+      "stepName": "Step 41",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_CustomerSearch_CSCriteria4",
+      "actionName": "SendKeys",
+      "actionParam": "ele"
+    },
+    {
+      "stepName": "Step 42",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_CustomerSearch_CSCriteria4",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "f12"
+    },
+    {
+      "stepName": "Step 43",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "10"
+    },
+    {
+      "stepName": "Step 44",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_CustomerSearch_CSCriteria4",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "f12"
+    },
+    {
+      "stepName": "Step 36",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "2"
+    },
+    {
+      "stepName": "Step 44",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_LargeCash_ToCtrl_To_1_CondGender1",
+      "actionName": "SendKeys",
+      "actionParam": "Female"
+    },
+    {
+      "stepName": "Step 44",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_LargeCash_ToCtrl_To_1_CondIssuedByCountry1",
+      "actionName": "SendKeys",
+      "actionParam": "Ca"
+    },
+    {
+      "stepName": "Step 44",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_LargeCash_ToCtrl_To_1_btnAffectedAccounts",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space"
+    },
+    {
+      "stepName": "Step 44",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_LargeCash_ToCtrl_To_1_btnTotals",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space"
+    },
+    {
+      "stepName": "Step 44",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Principal_ID_LargeCash_ToCtrl_To_1_CashInDepositWithdr",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "f12"
+    },
+    {
+      "stepName": "Step 36",
+      "stepStatus": "0",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "2"
+    },
+    {
+      "stepName": "Step 36",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "switchchildwindows",
+      "actionParam": ""
+    },
+    {
+      "stepName": "Step 44",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "txtAuthUserID",
+      "actionName": "SendKeys",
+      "actionParam": "U999999"
+    },
+    {
+      "stepName": "Step 44",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "txtAccessCode",
+      "actionName": "SendKeys",
+      "actionParam": "Passw0rd"
+    },
+    {
+      "stepName": "Step 44",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "txtAppMsgLocal",
+      "actionName": "SendKeys",
+      "actionParam": "Pass"
+    },
+    {
+      "stepName": "Step 44",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "imgOk",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "f12"
+    },
+    {
+      "stepName": "Step 36",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "switchparentwindow",
+      "actionParam": ""
+    },
+    {
+      "stepName": "Step 36",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "2"
+    },
+    {
+      "stepName": "Step 33",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Teller",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "arrowdown"
+    },
+    {
+      "stepName": "Step 34",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Sign Off",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "Space"
+    },
+    {
+      "stepName": "Step 35",
+      "stepStatus": "1",
+      "objectType": "element",
+      "objectName": "Sign Off",
+      "actionName": "SendKeyboardKey",
+      "actionParam": "f12"
+    },
+    {
+      "stepName": "Step 36",
+      "stepStatus": "1",
+      "objectType": "program",
+      "actionName": "Wait",
+      "actionParam": "10"
+    }
+  ]
+}
